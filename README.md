@@ -4,8 +4,6 @@ Users can add stock item and generate bills. All data is stored in database and 
 
 To run project, run the following commands in the project's directory to create the database. When running the software for the first time, it is necessary to run each command for each app in the project
 ```
-python manage.py makemigrations homepage
-python manage.py migrate homepage
 python manage.py makemigrations inventory
 python manage.py migrate inventory
 python manage.py makemigrations transactions
