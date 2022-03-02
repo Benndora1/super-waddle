@@ -9,7 +9,7 @@ from .models import (
     SaleItem,
     SaleBillDetails
 )
-from inventory.models import Stock
+from apps.inventory.models import Stock
 
 
 # form used to select a supplier

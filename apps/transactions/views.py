@@ -27,7 +27,7 @@ from .forms import (
     SaleItemFormset,
     SaleDetailsForm
 )
-from inventory.models import Stock
+from apps.inventory.models import Stock
 
 
 

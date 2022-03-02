@@ -30,9 +30,9 @@ INSTALLED_APPS = [
     'crispy_forms',                             # uses 'django-crispy-forms' app
     'login_required',                           # uses 'django-login-required-middleware' app
 
-    'homepage.apps.HomepageConfig',
-    'inventory.apps.InventoryConfig',
-    'transactions.apps.TransactionsConfig',
+    'apps.homepage.apps.HomepageConfig',
+    'apps.inventory.apps.InventoryConfig',
+    'apps.transactions.apps.TransactionsConfig',
 
 ]
 
